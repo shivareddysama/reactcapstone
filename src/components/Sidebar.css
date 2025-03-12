@@ -1,0 +1,60 @@
+.sidebar {
+    width: 250px;
+    height: 100vh; /* Make sidebar full height */
+    background: #0f0f0f;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Fix login button alignment */
+  .login-section {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  
+  .sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .sidebar ul li:hover,
+  .sidebar ul .active {
+    background: #222;
+    border-radius: 5px;
+  }
+  
+  .login-section {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  .login-btn {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    border-radius: 5px;
+  }
+  
